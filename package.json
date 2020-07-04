@@ -1,0 +1,27 @@
+{
+  "name": "idmsimplifiedwebserver",
+  "version": "1.0.0",
+  "description": "A simplified start to a fast webserver.",
+  "main": "server.js",
+  "author": "Idea Design Media LLC.",
+  "license": "Copyright Idea Design Media LLC 2020",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.19",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.8",
+    "nodemon": "^2.0.4",
+    "pkg.json": "^2.0.7",
+    "puppeteer": "^4.0.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}

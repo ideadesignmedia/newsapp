@@ -1,0 +1,14 @@
+{
+    "name": "Idea Design Media News Bot",
+    "short_name": "IDM News",
+    "start_url": ".",
+    "display": "fullscreen",
+    "background_color": "#fff",
+    "description": "News your way. Free, current news on your own custom topics.",
+    "icons": [{
+      "src": "/static/icon.svg",
+      "sizes": "150x150",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }]
+  }

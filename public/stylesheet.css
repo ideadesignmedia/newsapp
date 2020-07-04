@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: mr-eaves-mod roboto Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+	overflow-y: scroll;
+	display: block;
+}
+#main {
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	display: grid
+	grid-template-columns: 1fr;
+    max-width: 100%;
+	width: 100%;
+	min-height: 100vh;
+	height: auto;
+	overflow: hidden;
+}
+
+h1 {
+    margin-top: 10px;
+    cursor: default;
+    text-shadow: 1px 1px 5px #00000030;
+}
+h2 {
+    cursor: default;
+    color: #9abc48;
+    text-shadow: 1px 1px 5px #00000030;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #9abc48;
+}
+#credit {
+    margin-bottom: 10px;
+}
+news-form {
+    	max-width: 100%;
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow-x: hidden;
+}
